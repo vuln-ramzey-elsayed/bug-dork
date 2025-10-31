@@ -1,0 +1,13 @@
+🔍 A Python tool that collects dork search results from DuckDuckGo using the HTML interface — no API required. It reads dorks from a file, performs automated searches, extracts titles, URLs, and snippets, and saves all results to a CSV file with random delays to avoid blocking.
+Requirements & Run Instructions
+Requirements
+
+Python 3.8+
+
+Python packages: requests, beautifulsoup4, pandas
+requests
+beautifulsoup4
+pandas
+
+Run command
+python dork.py --wordlist google.txt --site example.com
